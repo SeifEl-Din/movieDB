@@ -1,0 +1,23 @@
+.navbar .navbar-brand
+{
+    color: #E50914;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    color: #E50914;
+}
+/* Default button style */
+.btn-outline-success {
+    color: #E50914; /* Set text color */
+    border-color: #E50914; /* Set border color */
+  }
+  
+  /* Hover effect */
+  .btn-outline-success:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #E50914; /* Change background color on hover */
+    border-color: #E50914; /* Change border color on hover */
+  }
+  

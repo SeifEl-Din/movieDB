@@ -1,0 +1,18 @@
+<div class="contain mt-5">
+    <div class="row p-5">
+            <div class="col-lg-3" *ngIf="movieDetails">
+                <div class="poster-container">
+                    <img [src]="'https://image.tmdb.org/t/p/original/' + movieDetails.poster_path" alt="{{ movieDetails.title }} Poster" class="movie-poster">
+                </div>
+            </div>
+                <div class="col-lg-9">
+                    <div class="details-content">
+                        <h1>{{ movieDetails.title }}</h1>
+                        <p class="overview">{{ movieDetails.overview }}</p>
+                        <p class="release-date">Release Date: {{ movieDetails.release_date }}</p>
+                      </div> 
+                </div>
+                   
+
+    </div>
+</div>
